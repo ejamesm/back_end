@@ -1,4 +1,6 @@
 Shouter::Application.routes.draw do
+  get "user/new"
+
   get "shout/index"
 
   # The priority is based upon order of creation:
